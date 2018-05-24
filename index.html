@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Serviço de Apoio ao Estudante</title>
+  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src='https://www.infoescola.com/wp-content/uploads/2017/06/upf-450x331.png' style='width: 100px'/>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right" style='margin-top: 25px'>
+          <li><a href="#feature">Técnicas de Ensino</a></li>
+          <li><a href="#faculity-member">Tutores</a></li>
+          <li><a href="#courses">Disciplinas</a></li>
+          <li><a href="#" data-target="#login" data-toggle="modal">Entrar</a></li>
+          <li class="btn-trial"><a href="#footer">Cadastre-se</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Navigation bar-->
+  <!--Modal box-->
+  <div class="modal fade" id="login" role="dialog">
+    <div class="modal-dialog modal-sm">
+
+      <!-- Modal content no 1-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center form-title">Login</h4>
+        </div>
+        <div class="modal-body padtrbl">
+
+          <div class="login-box-body">
+            <p class="login-box-msg">Entre com seus dados para iniciar sua sessão</p>
+            <div class="form-group">
+              <form name="" id="loginForm">
+                <div class="form-group has-feedback">
+                  <input class="form-control" placeholder="Usuário" id="loginid" type="text" autocomplete="off" />
+                  <span style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginid"></span>
+                  <!---Alredy exists  ! -->
+                  <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                  <input class="form-control" placeholder="Senha" id="loginpsw" type="password" autocomplete="off" />
+                  <span style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginpsw"></span>
+                  <!---Alredy exists  ! -->
+                  <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="checkbox icheck">
+                      <label>
+                                <input type="checkbox" id="loginrem" > Lembrar-me
+                              </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Entrar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--/ Modal box-->
+  <!--Banner-->
+  <div class="banner">
+    <div class="bg-color">
+      <div class="container">
+        <div class="row">
+          <div class="banner-text text-center">
+            <div class="text-border">
+              <h2 class="text-dec">Confiança & Qualidade</h2>
+            </div>
+            <div class="intro-para text-center quote">
+              <p class="big-text">O que você busca?</p>
+              <p class="small-text">Você tem dificuldade em alguma disciplina? <br> Está difícil de aprender com a metodologia de ensino utilizada pelo seu professor? <br> Nós podemos te ajudar.</p>
+            </div>
+            <a href="#feature" class="mouse-hover">
+              <div class="mouse"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Banner-->
+  <!--Feature-->
+  <section id="feature" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Técnicas de ensino oferecidas</h2>
+          <p>Oferecemos diversas formas de te ajudar na(s) disciplina(s) escolhidas, para sua comodidade.</p>
+          <hr class="bottom-line">
+        </div>
+        <div class="feature-info">
+          <div class="fea">
+            <div class="col-md-4">
+              <div class="heading pull-right">
+                <h4>Vídeo Aulas</h4>
+                <p>Aulas gravadas por nossos professores, disponíveis quando e onde você desejar assistí-las.</p>
+              </div>
+              <div class="fea-img pull-left">
+                <i class="fa fa-video-camera"></i>
+              </div>
+            </div>
+          </div>
+          <div class="fea">
+            <div class="col-md-4">
+              <div class="heading pull-right">
+                <h4>Aulas à distância</h4>
+                <p>Combine o melhor horário com um de nossos professores para realizar uma aula à distância via Skype.</p>
+              </div>
+              <div class="fea-img pull-left">
+                <i class="fa fa-skype"></i>
+              </div>
+            </div>
+          </div>
+          <div class="fea">
+            <div class="col-md-4">
+              <div class="heading pull-right">
+                <h4>Ensino Presencial</h4>
+                <p>Através do ensino presencial, você poderá combinar um horário com um de nossos professores.</p>
+              </div>
+              <div class="fea-img pull-left">
+                <i class="fa fa-map-marker"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ feature-->
+  <!--Faculity member-->
+  <section id="faculity-member" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Conheça alguns de nossos tutores</h2>
+          <p>Temos tutores especializados em diversas áreas para lhe oferecer um ensino de qualidade e focado no que mais te interessa: <br> utilizar o menor tempo possível e obter os melhores resultados.</p>
+          <hr class="bottom-line">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="pm-staff-profile-container">
+            <div class="pm-staff-profile-image-wrapper text-center">
+              <div class="pm-staff-profile-image">
+                <img src="img/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+              </div>
+            </div>
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">José da Silva</p>
+              <p class="pm-staff-profile-title">Tutor de Cálculo</p>
+
+              <p class="pm-staff-profile-bio">Estudante do 6º nível de Engenharia Civil da Universidade de Passo Fundo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="pm-staff-profile-container">
+            <div class="pm-staff-profile-image-wrapper text-center">
+              <div class="pm-staff-profile-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqMyM0qC0bHu0IOO6V_Oj8tfxAO05fDoINOG9l4oQHatBTDICt" alt="" class="img-thumbnail img-circle" style='    height: 100%;
+    width: 100%;' />
+              </div>
+            </div>
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">Miguel Rossi</p>
+              <p class="pm-staff-profile-title">Tutor de Literatura Francesa</p>
+
+              <p class="pm-staff-profile-bio">Estudante do 7º nível de História da Universidade de Passo Fundo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="pm-staff-profile-container">
+            <div class="pm-staff-profile-image-wrapper text-center">
+              <div class="pm-staff-profile-image">
+                <img src="http://tutano.trampos.co/wp-content/uploads/2014/12/juliana.png" alt="" class="img-thumbnail img-circle" />
+              </div>
+            </div>
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">Fernanda Medeiros</p>
+              <p class="pm-staff-profile-title">Tutora de Algoritmos</p>
+
+              <p class="pm-staff-profile-bio">Estudante do 4º nível de Ciência da Computação da Universidade de Passo Fundo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Faculity member-->
+  <!--Testimonial-->
+  <section id="testimonial" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2 class="white">O que dizem nossos ex-alunos?</h2>
+          <hr class="bottom-line bg-white">
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="text-comment" style="height: 219px">
+            <p class="text-par">"Com o serviço de apoio ao estudante tive a ajuda necessária para resolver minhas dúvidas e obter um excelente resultado na disciplina."</p>
+            <br>
+            <p class="text-name">Felipe Guedes - Aluno de Administração (UPF)</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="text-comment">
+            <p class="text-par">"Com a chegada do TCC e o acúmulo de disciplinas, tive problemas de aprendizagem em algumas matérias. O serviço de apoio ao estudante foi muito importante na fase final de minha graduação."</p>
+            <p class="text-name">Joana Mattos - Bacharel em Ciências Contábeis (UPF)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Testimonial-->
+  <!--Courses-->
+  <section id="courses" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Disciplinas oferecidas</h2>
+          <hr class="bottom-line">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="https://iqglobal.intel.com/br/wp-content/uploads/sites/15/2016/06/algoritmo_shutterstock_header-1119x653.jpg" style='height:225px' class="img-responsive">
+            <figcaption>
+              <h3>Algoritmos</h3>
+              <p>Algoritmo é uma sequência finita de instruções bem definidas e não ambíguas, cada uma das...</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="http://portaldobibliotecario.com/wp-content/uploads/2017/06/portal-do-bibliotecario-plano-de-negocios.jpg" style='height:225px' class="img-responsive">
+            <figcaption>
+              <h3>Plano de Negócios</h3>
+              <p>Plano de negócios, também chamado "plano empresarial", é um documento que especifica, em linguagem escrita, um negócio que se quer iniciar ou que já está iniciado.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="https://abrilexame.files.wordpress.com/2017/09/cacaroot.jpg" style='height:225px' class="img-responsive">
+            <figcaption>
+              <h3>Análise contábil</h3>
+              <p>A análise das demonstrações contábeis consiste em uma técnica que realiza a decomposição, comparação e interpretação dos demonstrativos financeiros da empresa.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+    </div>
+  </section>
+  <!--/ Courses-->
+  <!--Contact-->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Entre em contato</h2>
+          <p>Ficou com alguma dúvida ou deseja dar uma sugestão? <br> Entre em contato.</p>
+          <hr class="bottom-line">
+        </div>
+        <div id="sendmessage">Your message has been sent. Thank you!</div>
+        <div id="errormessage"></div>
+        <form action="" method="post" role="form" class="contactForm">
+          <div class="col-md-6 col-sm-6 col-xs-12 left">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control form" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Seu email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="" />
+              <div class="validation"></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-xs-12 right">
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"></textarea>
+              <div class="validation"></div>
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+            <!-- Button -->
+            <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">ENVIAR</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+  <!--/ Contact-->
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
